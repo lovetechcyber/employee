@@ -1,3 +1,4 @@
+import React from 'react';
 import './App.css';
 // import AccountType from './component/accountType/AccountType';
 import Routess from './component/routes/Routess';
@@ -9,7 +10,7 @@ function App() {
     <div className="App">
       {/* <AccountType /> */}
       {/* <AccountType /> */}
-      <Routess />
+      <Routess note={undefined} />
     </div>
   );
 }
